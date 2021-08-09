@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.chips {
+  padding: 6px 12px;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #e0e0e0;
+  text-overflow: ellipsis;
+  /* overflow: hidden; */
+  height: 32px;
+  font-size: 0.8125rem;
+  border-radius: 16px;
+  margin: 0 8px 8px 0;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.deb {
+  border: 1px solid orangered;
+}
